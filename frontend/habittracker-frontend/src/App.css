@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+margin:0;
+font-family:'Poppins', sans-serif;
+background:linear-gradient(135deg,#667eea,#764ba2);
+height:100vh;
+}
+
+.center{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+background:white;
+padding:40px;
+width:320px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:10px;
+margin-top:10px;
+background:#667eea;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#5a67d8;
+}
+
+p{
+margin-top:15px;
+font-size:14px;
+}
+
+a{
+color:#667eea;
+text-decoration:none;
+font-weight:600;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.today-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.today-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.top-badge {
+  background: #e0e7ff;
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 30px;
+  color: #4f46e5;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.hero-card h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.hero-card span {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.stat-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.stat-icon {
+  font-size: 28px;
+}
+
+.action-row {
+  margin-bottom: 25px;
+}
+
+.primary-btn {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg,#6366f1,#7c3aed);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 12px 22px;
+  border-radius: 12px;
+  border: 2px solid #6366f1;
+  background: white;
+  color: #6366f1;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.empty-card {
+  background: white;
+  border-radius: 25px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.empty-icon {
+  font-size: 40px;
+}
+
+.empty-actions {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.habit-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.complete-btn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+}

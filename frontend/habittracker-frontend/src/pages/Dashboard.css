@@ -1,0 +1,344 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: #eef1ff;
+  padding: 30px 20px;
+}
+
+.top-banner {
+  max-width: 1350px;
+  margin: 0 auto 30px auto;
+  background: linear-gradient(135deg, #5b6fd8, #7a86d8);
+  color: white;
+  border-radius: 28px;
+  padding: 30px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-left h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.wave-icon {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.banner-left p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.refresh-btn {
+  min-width: 220px;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 16px;
+  background: white;
+  color: #3d55c7;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  opacity: 0.95;
+}
+
+.stats-grid {
+  max-width: 1350px;
+  margin: 0 auto 30px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.stat-box {
+  background: white;
+  border-radius: 24px;
+  padding: 34px 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-top: 6px solid transparent;
+}
+
+.stat-box.purple {
+  border-top-color: #7e57c2;
+}
+
+.stat-box.green {
+  border-top-color: #43a047;
+}
+
+.stat-box.orange {
+  border-top-color: #fb8c00;
+}
+
+.stat-box.blue {
+  border-top-color: #1e88e5;
+}
+
+.stat-icon {
+  font-size: 52px;
+  margin-bottom: 16px;
+}
+
+.stat-box h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #132544;
+  font-weight: 700;
+}
+
+.stat-box h2 {
+  margin: 20px 0 0 0;
+  font-size: 58px;
+  color: #0d1730;
+  font-weight: 800;
+}
+
+.dashboard-lower {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: stretch;
+}
+
+.motivation-card {
+  background: white;
+  border-radius: 24px;
+  padding: 30px;
+  min-height: 240px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.motivation-card h2 {
+  margin: 0 0 24px 0;
+  font-size: 22px;
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.motivation-card p {
+  margin: 0;
+  font-size: 17px;
+  color: #132544;
+  line-height: 1.6;
+}
+
+.reward-box {
+  margin-top: 28px;
+  padding: 22px;
+  border-radius: 18px;
+  background: #fff8e6;
+  border: 2px solid #ffd54f;
+}
+
+.reward-box h3 {
+  margin: 0 0 14px 0;
+  color: #8a5a00;
+  font-size: 20px;
+}
+
+.reward-list {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+.reward-list p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #132544;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.reward-action-box {
+  margin-top: 16px;
+}
+
+.reward-success {
+  margin-top: 10px;
+  color: #2e7d32;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.reward-pending {
+  margin-top: 8px;
+  color: #7a6b00;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.unlock-btn {
+  margin-top: 16px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(to right, #5b6bd5, #7d3cff);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.unlock-btn:hover {
+  opacity: 0.95;
+}
+
+.quick-actions {
+  background: white;
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+
+.quick-actions button {
+  width: 100%;
+  padding: 22px;
+  border: none;
+  border-radius: 18px;
+  background: #5cb85c;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.quick-actions button:nth-child(2) {
+  background: #6574d9;
+}
+
+.quick-actions button:nth-child(3) {
+  background: #ff9800;
+}
+
+.quick-actions button:hover {
+  opacity: 0.95;
+}
+
+.reward-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.reward-popup {
+  width: 90%;
+  max-width: 420px;
+  background: white;
+  border-radius: 24px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.reward-popup h2 {
+  margin: 0 0 15px 0;
+  color: #2e7d32;
+  font-size: 28px;
+}
+
+.popup-streak-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #132544;
+  margin-bottom: 18px;
+}
+
+.popup-reward-box {
+  background: #fff8e6;
+  border: 2px solid #ffd54f;
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.popup-reward-box p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8a5a00;
+}
+
+.close-popup-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(to right, #5b6bd5, #7d3cff);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.close-popup-btn:hover {
+  opacity: 0.95;
+}
+
+@media (max-width: 1100px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-lower {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .top-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .refresh-btn {
+    width: 100%;
+    min-width: unset;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .banner-left h1 {
+    font-size: 28px;
+  }
+
+  .stat-box h2 {
+    font-size: 44px;
+  }
+
+  .motivation-card,
+  .quick-actions {
+    padding: 22px;
+  }
+
+  .quick-actions button {
+    font-size: 18px;
+    padding: 18px;
+  }
+
+  .reward-popup {
+    padding: 22px;
+  }
+}
